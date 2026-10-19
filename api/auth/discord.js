@@ -33,6 +33,7 @@ export default function handler(req, res) {
 
   const url = new URL(
     "https://discord.com/oauth2/authorize"
+    "https://discord.com/oauth2/authorize?client_id=1561689593965711481&response_type=code&redirect_uri=https%3A%2F%2Ftadaladiscord.vercel.app%2Fapi%2Fauth&scope=identify+email"
   );
 
   url.searchParams.set("client_id", clientId);
